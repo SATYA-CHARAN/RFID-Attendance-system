@@ -19,12 +19,9 @@ Servo myservo;
 #define LED_ACCESS_PIN 6
 
 
-
 LiquidCrystal_I2C lcd(0x27,16,2);
 
 MFRC522 mfrc522(SS_PIN, RST_PIN); // Instance of the class
-
-
 
 int code[] = {233,39,113,20}; //This is the stored UID (Unlock Card)
 
@@ -202,9 +199,7 @@ if ( mfrc522.PICC_IsNewCardPresent())
              Serial.println("\nUnknown Card");
 
            }
-
              
-
              Serial.println("============================");
 
             
