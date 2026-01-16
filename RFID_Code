@@ -13,7 +13,6 @@
 #define RST_PIN 9 
 Servo myservo;
 
-
 #define LED_DENIED_PIN 7
 
 #define LED_ACCESS_PIN 6
