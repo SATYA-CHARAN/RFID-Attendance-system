@@ -79,7 +79,6 @@ blink_red();
   lcd.setCursor(0,0);
 
   lcd.print("Show your card:)");
-
 }
 
 void door_open(){
